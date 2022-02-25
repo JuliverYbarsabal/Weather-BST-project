@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1622094009 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\date.cpp
+	<iostream>
+	"Date.h"
+
+1622095046 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\date.h
+	<iostream>
+	<string>
+
+1622205160 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<cstdlib>
+	<cmath>
+	<vector>
+	"WindlogData.h"
+	"readweather.h"
+	"Time.h"
+	"Date.h"
+
+1622195461 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\windlogdata.h
+	<map>
+	"BST.h"
+	"callback.h"
+	"Date.h"
+	"Time.h"
+
+1622196402 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\bst.h
+	<stack>
+	<cstdlib>
+
+1622207645 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\callback.h
+	<vector>
+
+1622094329 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\time.h
+	<iostream>
+	<string>
+
+1622210763 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\readweather.h
+	<iostream>
+	"Time.h"
+	"WindlogData.h"
+
+1622188547 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\readweather.cpp
+	"readweather.h"
+
+1622096889 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\time.cpp
+	"Time.h"
+
+1622196362 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\assignment2\assignment2\windlogdata.cpp
+	"WindlogData.h"
+
+1622094009 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\date.cpp
+	<iostream>
+	"Date.h"
+
+1622095046 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\date.h
+	<iostream>
+	<string>
+
+1622210763 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<cstdlib>
+	<cmath>
+	<vector>
+	"WindlogData.h"
+	"readweather.h"
+	"Time.h"
+	"Date.h"
+
+1622195461 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\windlogdata.h
+	<map>
+	"BST.h"
+	"callback.h"
+	"Date.h"
+	"Time.h"
+
+1622196402 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\bst.h
+	<stack>
+	<cstdlib>
+
+1622207645 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\callback.h
+	<vector>
+
+1622094329 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\time.h
+	<iostream>
+	<string>
+
+1622210763 c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\readweather.h
+	<iostream>
+	"Time.h"
+	"WindlogData.h"
+
+1622188547 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\readweather.cpp
+	"readweather.h"
+
+1622096889 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\time.cpp
+	"Time.h"
+
+1622196362 source:c:\users\juliver\onedrive\documents\murdoch2021sem1\ict283\assignment2\ict283_asign2_juliver_p_ybarsabal_33654584\assignment2\windlogdata.cpp
+	"WindlogData.h"
+

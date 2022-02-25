@@ -1,0 +1,258 @@
+\hypertarget{class_time}{}\doxysection{Time Class Reference}
+\label{class_time}\index{Time@{Time}}
+
+
+{\ttfamily \#include $<$time.\+h$>$}
+
+
+
+Collaboration diagram for Time\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_time__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_time_a4245e409c7347d1d671858962c2ca3b5}{Time}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_time_ad41532fa9dca778133707905c27eddc9}{Time}} (int h, int m)
+\begin{DoxyCompactList}\small\item\em Constructor with Parameter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_ae18a1832a373b061311f90aa9edcc257}{Set\+Hours}} (int h)
+\begin{DoxyCompactList}\small\item\em Public function to set the value of hours. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_a0f56907f1cf6e0acb227e57e5be90a5e}{Set\+Minutes}} (int m)
+\begin{DoxyCompactList}\small\item\em Public function to set the value of minutes. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_time_a508c3a20933ad90eb9ba0339c51d949d}{Get\+Hours}} () const
+\begin{DoxyCompactList}\small\item\em Public function to get the value of hours. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_time_a776335efdef4b465085442f046699b38}{Get\+Minutes}} () const
+\begin{DoxyCompactList}\small\item\em Public function to get the value of minutes. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_time_af0f4d4cd519ef8cbe32a53c4f253cf15}{operator==}} (const \mbox{\hyperlink{class_time}{Time}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if a time equal another time. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_time_a69586e79ca028c4230ac3081e2e0fc52}{operator$<$}} (const \mbox{\hyperlink{class_time}{Time}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if a time is before another time. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_time_a8f2a3c24a90ad5bc81f05aae39ed69a8}{operator$>$}} (const \mbox{\hyperlink{class_time}{Time}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if a time is after another time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_time_aa207ff7d820b4c32f22e1474a931b195}{hours}}
+\item 
+int \mbox{\hyperlink{class_time_acdca8b13b904057dfec90b68f3092bc4}{minutes}}
+\begin{DoxyCompactList}\small\item\em one int number of hours \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_time_a4245e409c7347d1d671858962c2ca3b5}\label{class_time_a4245e409c7347d1d671858962c2ca3b5}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+This function wills set hours and minutes to 0
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_ad41532fa9dca778133707905c27eddc9}\label{class_time_ad41532fa9dca778133707905c27eddc9}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{m }\end{DoxyParamCaption})}
+
+
+
+Constructor with Parameter. 
+
+This function wills set hours and minutes according to the parameter
+
+
+\begin{DoxyParams}{Parameters}
+{\em takes} & value of hours and minutes in as integer number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_a508c3a20933ad90eb9ba0339c51d949d}\label{class_time_a508c3a20933ad90eb9ba0339c51d949d}} 
+\index{Time@{Time}!GetHours@{GetHours}}
+\index{GetHours@{GetHours}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{GetHours()}{GetHours()}}
+{\footnotesize\ttfamily int Time\+::\+Get\+Hours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Public function to get the value of hours. 
+
+retrieve hours value within time class
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_time_a508c3a20933ad90eb9ba0339c51d949d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_time_a776335efdef4b465085442f046699b38}\label{class_time_a776335efdef4b465085442f046699b38}} 
+\index{Time@{Time}!GetMinutes@{GetMinutes}}
+\index{GetMinutes@{GetMinutes}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{GetMinutes()}{GetMinutes()}}
+{\footnotesize\ttfamily int Time\+::\+Get\+Minutes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Public function to get the value of minutes. 
+
+retrieve minutes value within time class
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_time_a776335efdef4b465085442f046699b38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_time_a69586e79ca028c4230ac3081e2e0fc52}\label{class_time_a69586e79ca028c4230ac3081e2e0fc52}} 
+\index{Time@{Time}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Time\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if a time is before another time. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{class_time_a69586e79ca028c4230ac3081e2e0fc52_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_time_af0f4d4cd519ef8cbe32a53c4f253cf15}\label{class_time_af0f4d4cd519ef8cbe32a53c4f253cf15}} 
+\index{Time@{Time}!operator==@{operator==}}
+\index{operator==@{operator==}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Time\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if a time equal another time. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_time_af0f4d4cd519ef8cbe32a53c4f253cf15_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_time_a8f2a3c24a90ad5bc81f05aae39ed69a8}\label{class_time_a8f2a3c24a90ad5bc81f05aae39ed69a8}} 
+\index{Time@{Time}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Time\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if a time is after another time. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{class_time_a8f2a3c24a90ad5bc81f05aae39ed69a8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_time_ae18a1832a373b061311f90aa9edcc257}\label{class_time_ae18a1832a373b061311f90aa9edcc257}} 
+\index{Time@{Time}!SetHours@{SetHours}}
+\index{SetHours@{SetHours}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{SetHours()}{SetHours()}}
+{\footnotesize\ttfamily void Time\+::\+Set\+Hours (\begin{DoxyParamCaption}\item[{int}]{h }\end{DoxyParamCaption})}
+
+
+
+Public function to set the value of hours. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & -\/ value of hours \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_a0f56907f1cf6e0acb227e57e5be90a5e}\label{class_time_a0f56907f1cf6e0acb227e57e5be90a5e}} 
+\index{Time@{Time}!SetMinutes@{SetMinutes}}
+\index{SetMinutes@{SetMinutes}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{SetMinutes()}{SetMinutes()}}
+{\footnotesize\ttfamily void Time\+::\+Set\+Minutes (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})}
+
+
+
+Public function to set the value of minutes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & -\/ value of minutes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_time_aa207ff7d820b4c32f22e1474a931b195}\label{class_time_aa207ff7d820b4c32f22e1474a931b195}} 
+\index{Time@{Time}!hours@{hours}}
+\index{hours@{hours}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{hours}{hours}}
+{\footnotesize\ttfamily int Time\+::hours\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_time_acdca8b13b904057dfec90b68f3092bc4}\label{class_time_acdca8b13b904057dfec90b68f3092bc4}} 
+\index{Time@{Time}!minutes@{minutes}}
+\index{minutes@{minutes}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{minutes}{minutes}}
+{\footnotesize\ttfamily int Time\+::minutes\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+one int number of hours 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{time_8h}{time.\+h}}\item 
+\mbox{\hyperlink{time_8cpp}{time.\+cpp}}\end{DoxyCompactItemize}

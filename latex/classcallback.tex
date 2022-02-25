@@ -1,0 +1,162 @@
+\hypertarget{classcallback}{}\doxysection{callback$<$ T $>$ Class Template Reference}
+\label{classcallback}\index{callback$<$ T $>$@{callback$<$ T $>$}}
+
+
+The callback class is used to collect data when passed as a function parameter.  
+
+
+
+
+{\ttfamily \#include $<$callback.\+h$>$}
+
+
+
+Collaboration diagram for callback$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=156pt]{classcallback__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classcallback_a4792c42a3323619651ff2e8f2240f53b}{size}} ()
+\begin{DoxyCompactList}\small\item\em returns size of vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcallback_a37f61421c81b801799bfa99d2913542d}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears the vector. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classcallback_a2c86bf8f3a68e1e343d31bfbbb86fb42}{operator\mbox{[}$\,$\mbox{]}}} (int index)
+\begin{DoxyCompactList}\small\item\em Overloads operator to allow access to vector elements directly. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcallback_a2f6d273979e6b282e8a015a14706cfe2}{Get\+Data}} (T \&data)
+\begin{DoxyCompactList}\small\item\em Adds data to vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static vector$<$ T $>$ \mbox{\hyperlink{classcallback_abcf07c5f0301fd08c946b4c2cade69c0}{data\+Vector}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class callback$<$ T $>$}
+
+The callback class is used to collect data when passed as a function parameter. 
+
+\begin{DoxyAuthor}{Author}
+Juliver Ybarsabal 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27/05/2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcallback_a37f61421c81b801799bfa99d2913542d}\label{classcallback_a37f61421c81b801799bfa99d2913542d}} 
+\index{callback$<$ T $>$@{callback$<$ T $>$}!clear@{clear}}
+\index{clear@{clear}!callback$<$ T $>$@{callback$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classcallback}{callback}}$<$ T $>$\+::clear}
+
+
+
+Clears the vector. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcallback_a37f61421c81b801799bfa99d2913542d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcallback_a2f6d273979e6b282e8a015a14706cfe2}\label{classcallback_a2f6d273979e6b282e8a015a14706cfe2}} 
+\index{callback$<$ T $>$@{callback$<$ T $>$}!GetData@{GetData}}
+\index{GetData@{GetData}!callback$<$ T $>$@{callback$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{GetData()}{GetData()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+static void \mbox{\hyperlink{classcallback}{callback}}$<$ T $>$\+::Get\+Data (\begin{DoxyParamCaption}\item[{T \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Adds data to vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & \&data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+static void 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcallback_a2f6d273979e6b282e8a015a14706cfe2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcallback_a2c86bf8f3a68e1e343d31bfbbb86fb42}\label{classcallback_a2c86bf8f3a68e1e343d31bfbbb86fb42}} 
+\index{callback$<$ T $>$@{callback$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!callback$<$ T $>$@{callback$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classcallback}{callback}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Overloads operator to allow access to vector elements directly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+T\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcallback_a4792c42a3323619651ff2e8f2240f53b}\label{classcallback_a4792c42a3323619651ff2e8f2240f53b}} 
+\index{callback$<$ T $>$@{callback$<$ T $>$}!size@{size}}
+\index{size@{size}!callback$<$ T $>$@{callback$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \mbox{\hyperlink{classcallback}{callback}}$<$ T $>$\+::size}
+
+
+
+returns size of vector. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcallback_a4792c42a3323619651ff2e8f2240f53b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcallback_abcf07c5f0301fd08c946b4c2cade69c0}\label{classcallback_abcf07c5f0301fd08c946b4c2cade69c0}} 
+\index{callback$<$ T $>$@{callback$<$ T $>$}!dataVector@{dataVector}}
+\index{dataVector@{dataVector}!callback$<$ T $>$@{callback$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{dataVector}{dataVector}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ T $>$ \mbox{\hyperlink{classcallback}{callback}}$<$ T $>$\+::data\+Vector\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Holds collected data 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{callback_8h}{callback.\+h}}\end{DoxyCompactItemize}

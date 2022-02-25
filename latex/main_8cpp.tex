@@ -1,0 +1,330 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}Windlog\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}readweather.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Time.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Date.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a66a7e816f23142f4e164ab9c60ba9275}{user\+First\+Option}} (\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&WL)
+\item 
+void \mbox{\hyperlink{main_8cpp_adb39fd4418b9883eb61c16cfb0a98735}{user\+Second\+Option}} (\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&WL)
+\item 
+void \mbox{\hyperlink{main_8cpp_ae50caeb0b44337ce0028057e51554f8c}{user\+Third\+Option}} (\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&WL)
+\item 
+void \mbox{\hyperlink{main_8cpp_a42d9a516be31997cd1a48994c0c7ed2b}{user\+Fourth\+Option}} (\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&WL, ofstream \&ofile)
+\item 
+void \mbox{\hyperlink{main_8cpp_af7d96e069c1161240c64af0a943099e3}{user\+Fifth\+Option}} (\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&WL)
+\item 
+string \mbox{\hyperlink{main_8cpp_a6414a2222b02aed2b9b6cb7a2c9fdb46}{print\+Month}} (unsigned m)
+\item 
+float \mbox{\hyperlink{main_8cpp_a30c9b55685c0f81d8255e40c51360c5f}{compute\+Variance\+Wind\+Speed}} (float mean, vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ numbers)
+\item 
+float \mbox{\hyperlink{main_8cpp_af84c666a5d5f3a09d23fd1e7e2203400}{compute\+Variance\+Air\+Temp}} (float mean, vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ numbers)
+\item 
+float \mbox{\hyperlink{main_8cpp_a2dbbd7f294df3f744b9b8f115a1b5d65}{round\+Number}} (float decimal)
+\item 
+float \mbox{\hyperlink{main_8cpp_a50f8222984f328c2e864feffa01e34de}{Covert\+From\+Wm2\+To\+K\+Whm2}} (float wm2)
+\item 
+int \mbox{\hyperlink{main_8cpp_a39c81f6ae866b814f546c7de4e68f657}{select\+Day}} ()
+\item 
+int \mbox{\hyperlink{main_8cpp_a4e48d15455a283fa5461d0605912d278}{select\+Month}} ()
+\item 
+int \mbox{\hyperlink{main_8cpp_a667893ea76371906ab1167d72c949f56}{select\+Year}} ()
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\item 
+unsigned int \mbox{\hyperlink{main_8cpp_abe29efee94983eee8a4dea4d945405c2}{validate\+Input}} (unsigned int valid)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_af84c666a5d5f3a09d23fd1e7e2203400}\label{main_8cpp_af84c666a5d5f3a09d23fd1e7e2203400}} 
+\index{main.cpp@{main.cpp}!computeVarianceAirTemp@{computeVarianceAirTemp}}
+\index{computeVarianceAirTemp@{computeVarianceAirTemp}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{computeVarianceAirTemp()}{computeVarianceAirTemp()}}
+{\footnotesize\ttfamily float compute\+Variance\+Air\+Temp (\begin{DoxyParamCaption}\item[{float}]{mean,  }\item[{vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$}]{numbers }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_af84c666a5d5f3a09d23fd1e7e2203400_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a30c9b55685c0f81d8255e40c51360c5f}\label{main_8cpp_a30c9b55685c0f81d8255e40c51360c5f}} 
+\index{main.cpp@{main.cpp}!computeVarianceWindSpeed@{computeVarianceWindSpeed}}
+\index{computeVarianceWindSpeed@{computeVarianceWindSpeed}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{computeVarianceWindSpeed()}{computeVarianceWindSpeed()}}
+{\footnotesize\ttfamily float compute\+Variance\+Wind\+Speed (\begin{DoxyParamCaption}\item[{float}]{mean,  }\item[{vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$}]{numbers }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a30c9b55685c0f81d8255e40c51360c5f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a50f8222984f328c2e864feffa01e34de}\label{main_8cpp_a50f8222984f328c2e864feffa01e34de}} 
+\index{main.cpp@{main.cpp}!CovertFromWm2ToKWhm2@{CovertFromWm2ToKWhm2}}
+\index{CovertFromWm2ToKWhm2@{CovertFromWm2ToKWhm2}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{CovertFromWm2ToKWhm2()}{CovertFromWm2ToKWhm2()}}
+{\footnotesize\ttfamily float Covert\+From\+Wm2\+To\+K\+Whm2 (\begin{DoxyParamCaption}\item[{float}]{wm2 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a50f8222984f328c2e864feffa01e34de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a6414a2222b02aed2b9b6cb7a2c9fdb46}\label{main_8cpp_a6414a2222b02aed2b9b6cb7a2c9fdb46}} 
+\index{main.cpp@{main.cpp}!printMonth@{printMonth}}
+\index{printMonth@{printMonth}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{printMonth()}{printMonth()}}
+{\footnotesize\ttfamily string print\+Month (\begin{DoxyParamCaption}\item[{unsigned}]{m }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{main_8cpp_a6414a2222b02aed2b9b6cb7a2c9fdb46_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a2dbbd7f294df3f744b9b8f115a1b5d65}\label{main_8cpp_a2dbbd7f294df3f744b9b8f115a1b5d65}} 
+\index{main.cpp@{main.cpp}!roundNumber@{roundNumber}}
+\index{roundNumber@{roundNumber}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{roundNumber()}{roundNumber()}}
+{\footnotesize\ttfamily float round\+Number (\begin{DoxyParamCaption}\item[{float}]{decimal }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a2dbbd7f294df3f744b9b8f115a1b5d65_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a39c81f6ae866b814f546c7de4e68f657}\label{main_8cpp_a39c81f6ae866b814f546c7de4e68f657}} 
+\index{main.cpp@{main.cpp}!selectDay@{selectDay}}
+\index{selectDay@{selectDay}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{selectDay()}{selectDay()}}
+{\footnotesize\ttfamily int select\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{main_8cpp_a39c81f6ae866b814f546c7de4e68f657_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{main_8cpp_a39c81f6ae866b814f546c7de4e68f657_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a4e48d15455a283fa5461d0605912d278}\label{main_8cpp_a4e48d15455a283fa5461d0605912d278}} 
+\index{main.cpp@{main.cpp}!selectMonth@{selectMonth}}
+\index{selectMonth@{selectMonth}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{selectMonth()}{selectMonth()}}
+{\footnotesize\ttfamily int select\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{main_8cpp_a4e48d15455a283fa5461d0605912d278_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{main_8cpp_a4e48d15455a283fa5461d0605912d278_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a667893ea76371906ab1167d72c949f56}\label{main_8cpp_a667893ea76371906ab1167d72c949f56}} 
+\index{main.cpp@{main.cpp}!selectYear@{selectYear}}
+\index{selectYear@{selectYear}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{selectYear()}{selectYear()}}
+{\footnotesize\ttfamily int select\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{main_8cpp_a667893ea76371906ab1167d72c949f56_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a667893ea76371906ab1167d72c949f56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_af7d96e069c1161240c64af0a943099e3}\label{main_8cpp_af7d96e069c1161240c64af0a943099e3}} 
+\index{main.cpp@{main.cpp}!userFifthOption@{userFifthOption}}
+\index{userFifthOption@{userFifthOption}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{userFifthOption()}{userFifthOption()}}
+{\footnotesize\ttfamily void user\+Fifth\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&}]{WL }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_af7d96e069c1161240c64af0a943099e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{main_8cpp_af7d96e069c1161240c64af0a943099e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a66a7e816f23142f4e164ab9c60ba9275}\label{main_8cpp_a66a7e816f23142f4e164ab9c60ba9275}} 
+\index{main.cpp@{main.cpp}!userFirstOption@{userFirstOption}}
+\index{userFirstOption@{userFirstOption}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{userFirstOption()}{userFirstOption()}}
+{\footnotesize\ttfamily void user\+First\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&}]{WL }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a66a7e816f23142f4e164ab9c60ba9275_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{main_8cpp_a66a7e816f23142f4e164ab9c60ba9275_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a42d9a516be31997cd1a48994c0c7ed2b}\label{main_8cpp_a42d9a516be31997cd1a48994c0c7ed2b}} 
+\index{main.cpp@{main.cpp}!userFourthOption@{userFourthOption}}
+\index{userFourthOption@{userFourthOption}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{userFourthOption()}{userFourthOption()}}
+{\footnotesize\ttfamily void user\+Fourth\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&}]{WL,  }\item[{ofstream \&}]{ofile }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a42d9a516be31997cd1a48994c0c7ed2b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{main_8cpp_a42d9a516be31997cd1a48994c0c7ed2b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_adb39fd4418b9883eb61c16cfb0a98735}\label{main_8cpp_adb39fd4418b9883eb61c16cfb0a98735}} 
+\index{main.cpp@{main.cpp}!userSecondOption@{userSecondOption}}
+\index{userSecondOption@{userSecondOption}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{userSecondOption()}{userSecondOption()}}
+{\footnotesize\ttfamily void user\+Second\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&}]{WL }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_adb39fd4418b9883eb61c16cfb0a98735_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{main_8cpp_adb39fd4418b9883eb61c16cfb0a98735_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae50caeb0b44337ce0028057e51554f8c}\label{main_8cpp_ae50caeb0b44337ce0028057e51554f8c}} 
+\index{main.cpp@{main.cpp}!userThirdOption@{userThirdOption}}
+\index{userThirdOption@{userThirdOption}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{userThirdOption()}{userThirdOption()}}
+{\footnotesize\ttfamily void user\+Third\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} \&}]{WL }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae50caeb0b44337ce0028057e51554f8c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{main_8cpp_ae50caeb0b44337ce0028057e51554f8c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_abe29efee94983eee8a4dea4d945405c2}\label{main_8cpp_abe29efee94983eee8a4dea4d945405c2}} 
+\index{main.cpp@{main.cpp}!validateInput@{validateInput}}
+\index{validateInput@{validateInput}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{validateInput()}{validateInput()}}
+{\footnotesize\ttfamily unsigned int validate\+Input (\begin{DoxyParamCaption}\item[{unsigned int}]{valid }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_abe29efee94983eee8a4dea4d945405c2_icgraph}
+\end{center}
+\end{figure}

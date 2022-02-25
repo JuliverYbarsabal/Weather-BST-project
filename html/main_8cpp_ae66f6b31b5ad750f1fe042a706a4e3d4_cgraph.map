@@ -1,0 +1,22 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,259,56,285"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#af7d96e069c1161240c64af0a943099e3" title=" " alt="" coords="113,132,224,159"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a66a7e816f23142f4e164ab9c60ba9275" title=" " alt="" coords="113,208,224,235"/>
+<area shape="rect" id="node16" href="$main_8cpp.html#a42d9a516be31997cd1a48994c0c7ed2b" title=" " alt="" coords="107,360,230,387"/>
+<area shape="rect" id="node19" href="$main_8cpp.html#adb39fd4418b9883eb61c16cfb0a98735" title=" " alt="" coords="104,309,233,336"/>
+<area shape="rect" id="node20" href="$main_8cpp.html#ae50caeb0b44337ce0028057e51554f8c" title=" " alt="" coords="112,259,225,285"/>
+<area shape="rect" id="node3" href="$class_windlog_data.html#abad0ca970b4ce9ce440ca7b4affd8a6c" title="Returns vector of Windlog data of a day, month and year. used in userfifthOption." alt="" coords="295,107,459,133"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a2dbbd7f294df3f744b9b8f115a1b5d65" title=" " alt="" coords="327,157,426,184"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#a39c81f6ae866b814f546c7de4e68f657" title=" " alt="" coords="337,5,417,32"/>
+<area shape="rect" id="node10" href="$main_8cpp.html#a4e48d15455a283fa5461d0605912d278" title=" " alt="" coords="330,56,423,83"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a667893ea76371906ab1167d72c949f56" title=" " alt="" coords="335,208,419,235"/>
+<area shape="rect" id="node4" href="$classcallback.html#a37f61421c81b801799bfa99d2913542d" title="Clears the vector." alt="" coords="530,297,637,324"/>
+<area shape="rect" id="node5" href="$classcallback.html#a2f6d273979e6b282e8a015a14706cfe2" title="Adds data to vector." alt="" coords="520,120,647,147"/>
+<area shape="rect" id="node6" href="$classcallback.html#a4792c42a3323619651ff2e8f2240f53b" title="returns size of vector." alt="" coords="532,221,635,248"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#abe29efee94983eee8a4dea4d945405c2" title=" " alt="" coords="537,56,630,83"/>
+<area shape="rect" id="node13" href="$main_8cpp.html#a30c9b55685c0f81d8255e40c51360c5f" title=" " alt="" coords="281,259,472,285"/>
+<area shape="rect" id="node14" href="$class_windlog_data.html#a9363f03b1e69550b57916c65e2e492b7" title="Returns vector of Windlog data of a month and year. used in userFirstOption, userSecondOption,..." alt="" coords="288,309,465,336"/>
+<area shape="rect" id="node15" href="$main_8cpp.html#a6414a2222b02aed2b9b6cb7a2c9fdb46" title=" " alt="" coords="335,360,418,387"/>
+<area shape="rect" id="node17" href="$main_8cpp.html#af84c666a5d5f3a09d23fd1e7e2203400" title=" " alt="" coords="291,461,462,488"/>
+<area shape="rect" id="node18" href="$main_8cpp.html#a50f8222984f328c2e864feffa01e34de" title=" " alt="" coords="287,411,467,437"/>
+</map>

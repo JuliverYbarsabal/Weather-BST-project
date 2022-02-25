@@ -1,0 +1,10 @@
+<map id="operator&gt;&gt;" name="operator&gt;&gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,91,159"/>
+<area shape="rect" id="node2" href="$class_date.html#a6304a67f1c13b239eb8e80ad68161e40" title="Public function to get the value of day." alt="" coords="329,5,431,32"/>
+<area shape="rect" id="node3" href="$class_time.html#a508c3a20933ad90eb9ba0339c51d949d" title="Public function to get the value of hours." alt="" coords="150,208,263,235"/>
+<area shape="rect" id="node4" href="$class_time.html#a776335efdef4b465085442f046699b38" title="Public function to get the value of minutes." alt="" coords="144,259,269,285"/>
+<area shape="rect" id="node5" href="$class_date.html#af2dcc6ce51dbb2bd798499a149bdffb7" title="Public function to get the value of month." alt="" coords="323,56,437,83"/>
+<area shape="rect" id="node6" href="$class_date.html#ad79ce504482f317ddcfdc4ecad77671f" title="Public function to get the value of year." alt="" coords="327,157,433,184"/>
+<area shape="rect" id="node7" href="$class_windlog_data.html#a4057ed581e436bfe4221087e79bda074" title="Add a row of Windlogdata. Inserts an instance of WindlogType sorted by date." alt="" coords="139,107,275,133"/>
+<area shape="rect" id="node8" href="$class_b_s_t.html#ae7f864a68a632ee15f952666f2446be1" title="Adds item into tree." alt="" coords="337,107,423,133"/>
+</map>

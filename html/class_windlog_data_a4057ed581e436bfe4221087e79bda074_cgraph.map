@@ -1,0 +1,7 @@
+<map id="WindlogData::Insert" name="WindlogData::Insert">
+<area shape="rect" id="node1" title="Add a row of Windlogdata. Inserts an instance of WindlogType sorted by date." alt="" coords="5,81,141,108"/>
+<area shape="rect" id="node2" href="$class_date.html#a6304a67f1c13b239eb8e80ad68161e40" title="Public function to get the value of day." alt="" coords="196,5,297,32"/>
+<area shape="rect" id="node3" href="$class_date.html#af2dcc6ce51dbb2bd798499a149bdffb7" title="Public function to get the value of month." alt="" coords="189,56,304,83"/>
+<area shape="rect" id="node4" href="$class_date.html#ad79ce504482f317ddcfdc4ecad77671f" title="Public function to get the value of year." alt="" coords="194,107,299,133"/>
+<area shape="rect" id="node5" href="$class_b_s_t.html#ae7f864a68a632ee15f952666f2446be1" title="Adds item into tree." alt="" coords="203,157,290,184"/>
+</map>

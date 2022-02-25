@@ -1,0 +1,327 @@
+\hypertarget{class_date}{}\doxysection{Date Class Reference}
+\label{class_date}\index{Date@{Date}}
+
+
+{\ttfamily \#include $<$date.\+h$>$}
+
+
+
+Collaboration diagram for Date\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{class_date__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_date_a4e59ed4ba66eec61c27460c5d09fa1bd}{Date}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}{Date}} (int d, int m, int y)
+\begin{DoxyCompactList}\small\item\em Constructor with Parameter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_date_ab2d0573c89abb758c92b429874ad9ae2}{Set\+Day}} (int d)
+\begin{DoxyCompactList}\small\item\em Public function to set the value of day. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_date_ae47ff4dbe38076b995703ecb4aa5c602}{Set\+Month}} (int m)
+\begin{DoxyCompactList}\small\item\em Public function to set the value of month. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_date_ae77d46d475c904d1fabcb91933034514}{Set\+Year}} (int y)
+\begin{DoxyCompactList}\small\item\em Public function to set the value of year. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_date_a6304a67f1c13b239eb8e80ad68161e40}{Get\+Day}} () const
+\begin{DoxyCompactList}\small\item\em Public function to get the value of day. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_date_af2dcc6ce51dbb2bd798499a149bdffb7}{Get\+Month}} () const
+\begin{DoxyCompactList}\small\item\em Public function to get the value of month. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_date_ad79ce504482f317ddcfdc4ecad77671f}{Get\+Year}} () const
+\begin{DoxyCompactList}\small\item\em Public function to get the value of year. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_date_aa7a2542da1bcd7bf328c07be74b55cc3}{Set\+Date}} (int d, int m, int y)
+\item 
+bool \mbox{\hyperlink{class_date_ab5b9f0682e6285af51521159e7b65fdc}{operator==}} (const \mbox{\hyperlink{class_date}{Date}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if two dates are equal. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_date_ab45910c75ae7ac2ae79b138730007882}{operator$<$}} (const \mbox{\hyperlink{class_date}{Date}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if a date is before another date. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_date_ab6ee13b33bb48680f1b0afa819ec178a}{operator$>$}} (const \mbox{\hyperlink{class_date}{Date}} \&other)
+\begin{DoxyCompactList}\small\item\em Determine if a date is after another date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_date_a5b192adcabf2b2871e3f0b76c1ec1601}{day}}
+\item 
+int \mbox{\hyperlink{class_date_a533843e07c6ac8d19fee9b16f5336ba2}{month}}
+\begin{DoxyCompactList}\small\item\em one int number of day \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_date_a3eeced2ed56bc95d56782b9e738db8ea}{year}}
+\begin{DoxyCompactList}\small\item\em one int number of month \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_date_a4e59ed4ba66eec61c27460c5d09fa1bd}\label{class_date_a4e59ed4ba66eec61c27460c5d09fa1bd}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{Date()}{Date()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+This function wills set day, month, year to 1/1/2000 by defualt
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}\label{class_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{Date()}{Date()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{m,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Constructor with Parameter. 
+
+This function wills set day, month, year according to the parameter
+
+
+\begin{DoxyParams}{Parameters}
+{\em takes} & value of day, month, year in as integer number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_date_a6304a67f1c13b239eb8e80ad68161e40}\label{class_date_a6304a67f1c13b239eb8e80ad68161e40}} 
+\index{Date@{Date}!GetDay@{GetDay}}
+\index{GetDay@{GetDay}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{GetDay()}{GetDay()}}
+{\footnotesize\ttfamily int Date\+::\+Get\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Public function to get the value of day. 
+
+retrieve day value within time class
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_date_a6304a67f1c13b239eb8e80ad68161e40_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_af2dcc6ce51dbb2bd798499a149bdffb7}\label{class_date_af2dcc6ce51dbb2bd798499a149bdffb7}} 
+\index{Date@{Date}!GetMonth@{GetMonth}}
+\index{GetMonth@{GetMonth}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{GetMonth()}{GetMonth()}}
+{\footnotesize\ttfamily int Date\+::\+Get\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Public function to get the value of month. 
+
+retrieve month value within time class
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_date_af2dcc6ce51dbb2bd798499a149bdffb7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_ad79ce504482f317ddcfdc4ecad77671f}\label{class_date_ad79ce504482f317ddcfdc4ecad77671f}} 
+\index{Date@{Date}!GetYear@{GetYear}}
+\index{GetYear@{GetYear}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{GetYear()}{GetYear()}}
+{\footnotesize\ttfamily int Date\+::\+Get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Public function to get the value of year. 
+
+retrieve year value within time class
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_date_ad79ce504482f317ddcfdc4ecad77671f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_ab45910c75ae7ac2ae79b138730007882}\label{class_date_ab45910c75ae7ac2ae79b138730007882}} 
+\index{Date@{Date}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Date\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_date}{Date}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if a date is before another date. 
+
+used in \mbox{\hyperlink{class_b_s_t}{B\+ST}} template used as a defaut operator $<$ \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{class_date_ab45910c75ae7ac2ae79b138730007882_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_ab5b9f0682e6285af51521159e7b65fdc}\label{class_date_ab5b9f0682e6285af51521159e7b65fdc}} 
+\index{Date@{Date}!operator==@{operator==}}
+\index{operator==@{operator==}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Date\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_date}{Date}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if two dates are equal. 
+
+used in \mbox{\hyperlink{class_b_s_t}{B\+ST}} template used as a defaut operator==
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_date_ab5b9f0682e6285af51521159e7b65fdc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_ab6ee13b33bb48680f1b0afa819ec178a}\label{class_date_ab6ee13b33bb48680f1b0afa819ec178a}} 
+\index{Date@{Date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Date\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_date}{Date}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Determine if a date is after another date. 
+
+used in \mbox{\hyperlink{class_b_s_t}{B\+ST}} template used as a defaut operator $>$
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{class_date_ab6ee13b33bb48680f1b0afa819ec178a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_date_aa7a2542da1bcd7bf328c07be74b55cc3}\label{class_date_aa7a2542da1bcd7bf328c07be74b55cc3}} 
+\index{Date@{Date}!SetDate@{SetDate}}
+\index{SetDate@{SetDate}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{SetDate()}{SetDate()}}
+{\footnotesize\ttfamily void Date\+::\+Set\+Date (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{m,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_date_ab2d0573c89abb758c92b429874ad9ae2}\label{class_date_ab2d0573c89abb758c92b429874ad9ae2}} 
+\index{Date@{Date}!SetDay@{SetDay}}
+\index{SetDay@{SetDay}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{SetDay()}{SetDay()}}
+{\footnotesize\ttfamily void Date\+::\+Set\+Day (\begin{DoxyParamCaption}\item[{int}]{d }\end{DoxyParamCaption})}
+
+
+
+Public function to set the value of day. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & -\/ value of day \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_ae47ff4dbe38076b995703ecb4aa5c602}\label{class_date_ae47ff4dbe38076b995703ecb4aa5c602}} 
+\index{Date@{Date}!SetMonth@{SetMonth}}
+\index{SetMonth@{SetMonth}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{SetMonth()}{SetMonth()}}
+{\footnotesize\ttfamily void Date\+::\+Set\+Month (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})}
+
+
+
+Public function to set the value of month. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & -\/ value of month \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_ae77d46d475c904d1fabcb91933034514}\label{class_date_ae77d46d475c904d1fabcb91933034514}} 
+\index{Date@{Date}!SetYear@{SetYear}}
+\index{SetYear@{SetYear}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{SetYear()}{SetYear()}}
+{\footnotesize\ttfamily void Date\+::\+Set\+Year (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Public function to set the value of year. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & -\/ value of year \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_date_a5b192adcabf2b2871e3f0b76c1ec1601}\label{class_date_a5b192adcabf2b2871e3f0b76c1ec1601}} 
+\index{Date@{Date}!day@{day}}
+\index{day@{day}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{day}{day}}
+{\footnotesize\ttfamily int Date\+::day\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_date_a533843e07c6ac8d19fee9b16f5336ba2}\label{class_date_a533843e07c6ac8d19fee9b16f5336ba2}} 
+\index{Date@{Date}!month@{month}}
+\index{month@{month}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{month}{month}}
+{\footnotesize\ttfamily int Date\+::month\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+one int number of day 
+
+\mbox{\Hypertarget{class_date_a3eeced2ed56bc95d56782b9e738db8ea}\label{class_date_a3eeced2ed56bc95d56782b9e738db8ea}} 
+\index{Date@{Date}!year@{year}}
+\index{year@{year}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{year}{year}}
+{\footnotesize\ttfamily int Date\+::year\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+one int number of month 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{date_8h}{date.\+h}}\item 
+\mbox{\hyperlink{date_8cpp}{date.\+cpp}}\end{DoxyCompactItemize}

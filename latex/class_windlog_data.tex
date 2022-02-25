@@ -1,0 +1,190 @@
+\hypertarget{class_windlog_data}{}\doxysection{Windlog\+Data Class Reference}
+\label{class_windlog_data}\index{WindlogData@{WindlogData}}
+
+
+The \mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} class represents an accumulation of \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} data organised by date.  
+
+
+
+
+{\ttfamily \#include $<$Windlog\+Data.\+h$>$}
+
+
+
+Collaboration diagram for Windlog\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_windlog_data__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_windlog_data_a57b6f65503848b6d20b46e48aebea3f5}{Windlog\+Data}} ()
+\begin{DoxyCompactList}\small\item\em A constructor. Construct a blank Windlog data object with no parameters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_windlog_data_a4057ed581e436bfe4221087e79bda074}{Insert}} (\mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} data\+Row)
+\begin{DoxyCompactList}\small\item\em Add a row of Windlogdata. Inserts an instance of \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} sorted by date. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \& \mbox{\hyperlink{class_windlog_data_a9363f03b1e69550b57916c65e2e492b7}{Get\+By\+Month}} (int month, int year)
+\begin{DoxyCompactList}\small\item\em Returns vector of Windlog data of a month and year. used in user\+First\+Option, user\+Second\+Option, user\+Third\+Option, user\+Fourth\+Option. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \& \mbox{\hyperlink{class_windlog_data_abad0ca970b4ce9ce440ca7b4affd8a6c}{Get\+By\+Day}} (int day, int month, int year)
+\begin{DoxyCompactList}\small\item\em Returns vector of Windlog data of a day, month and year. used in userfifth\+Option. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}{Year\+Map}} \mbox{\hyperlink{class_windlog_data_a49a883a7d0a2ce90f3c65eb1402c97b9}{Windlog\+Map}}
+\item 
+vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \mbox{\hyperlink{class_windlog_data_a2cd71f3367a2cb53390fe3efbdd1bb7c}{Windlog\+Vector}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} class represents an accumulation of \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} data organised by date. 
+
+\begin{DoxyAuthor}{Author}
+Juliver 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+25/05/2021 
+\end{DoxyDate}
+\hypertarget{WindlogData.h_description}{}\doxysubsection{description}\label{WindlogData.h_description}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_windlog_data_a57b6f65503848b6d20b46e48aebea3f5}\label{class_windlog_data_a57b6f65503848b6d20b46e48aebea3f5}} 
+\index{WindlogData@{WindlogData}!WindlogData@{WindlogData}}
+\index{WindlogData@{WindlogData}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{WindlogData()}{WindlogData()}}
+{\footnotesize\ttfamily Windlog\+Data\+::\+Windlog\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A constructor. Construct a blank Windlog data object with no parameters. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_windlog_data_abad0ca970b4ce9ce440ca7b4affd8a6c}\label{class_windlog_data_abad0ca970b4ce9ce440ca7b4affd8a6c}} 
+\index{WindlogData@{WindlogData}!GetByDay@{GetByDay}}
+\index{GetByDay@{GetByDay}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{GetByDay()}{GetByDay()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \& Windlog\+Data\+::\+Get\+By\+Day (\begin{DoxyParamCaption}\item[{int}]{day,  }\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})}
+
+
+
+Returns vector of Windlog data of a day, month and year. used in userfifth\+Option. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & day, int month, int year \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector$<$\+Windlog\+Type$>$\& 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_windlog_data_abad0ca970b4ce9ce440ca7b4affd8a6c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windlog_data_abad0ca970b4ce9ce440ca7b4affd8a6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windlog_data_a9363f03b1e69550b57916c65e2e492b7}\label{class_windlog_data_a9363f03b1e69550b57916c65e2e492b7}} 
+\index{WindlogData@{WindlogData}!GetByMonth@{GetByMonth}}
+\index{GetByMonth@{GetByMonth}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{GetByMonth()}{GetByMonth()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \& Windlog\+Data\+::\+Get\+By\+Month (\begin{DoxyParamCaption}\item[{int}]{month,  }\item[{int}]{year }\end{DoxyParamCaption})}
+
+
+
+Returns vector of Windlog data of a month and year. used in user\+First\+Option, user\+Second\+Option, user\+Third\+Option, user\+Fourth\+Option. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & month, int year \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector$<$\+Windlog\+Type$>$\& 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_windlog_data_a9363f03b1e69550b57916c65e2e492b7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_windlog_data_a9363f03b1e69550b57916c65e2e492b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_windlog_data_a4057ed581e436bfe4221087e79bda074}\label{class_windlog_data_a4057ed581e436bfe4221087e79bda074}} 
+\index{WindlogData@{WindlogData}!Insert@{Insert}}
+\index{Insert@{Insert}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily void Windlog\+Data\+::\+Insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}}}]{data\+Row }\end{DoxyParamCaption})}
+
+
+
+Add a row of Windlogdata. Inserts an instance of \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} sorted by date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}}} & data\+Row \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_windlog_data_a4057ed581e436bfe4221087e79bda074_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_windlog_data_a4057ed581e436bfe4221087e79bda074_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_windlog_data_a49a883a7d0a2ce90f3c65eb1402c97b9}\label{class_windlog_data_a49a883a7d0a2ce90f3c65eb1402c97b9}} 
+\index{WindlogData@{WindlogData}!WindlogMap@{WindlogMap}}
+\index{WindlogMap@{WindlogMap}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{WindlogMap}{WindlogMap}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}{Year\+Map}} Windlog\+Data\+::\+Windlog\+Map\hspace{0.3cm}{\ttfamily [private]}}
+
+All Windlog data \mbox{\Hypertarget{class_windlog_data_a2cd71f3367a2cb53390fe3efbdd1bb7c}\label{class_windlog_data_a2cd71f3367a2cb53390fe3efbdd1bb7c}} 
+\index{WindlogData@{WindlogData}!WindlogVector@{WindlogVector}}
+\index{WindlogVector@{WindlogVector}!WindlogData@{WindlogData}}
+\doxysubsubsection{\texorpdfstring{WindlogVector}{WindlogVector}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}}$>$ Windlog\+Data\+::\+Windlog\+Vector\hspace{0.3cm}{\ttfamily [private]}}
+
+Currently extracted Windlog data 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_windlog_data_8h}{Windlog\+Data.\+h}}\item 
+\mbox{\hyperlink{_windlog_data_8cpp}{Windlog\+Data.\+cpp}}\end{DoxyCompactItemize}

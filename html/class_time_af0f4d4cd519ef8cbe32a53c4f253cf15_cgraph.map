@@ -1,0 +1,5 @@
+<map id="Time::operator==" name="Time::operator==">
+<area shape="rect" id="node1" title="Determine if a time equal another time." alt="" coords="5,31,127,57"/>
+<area shape="rect" id="node2" href="$class_time.html#a508c3a20933ad90eb9ba0339c51d949d" title="Public function to get the value of hours." alt="" coords="181,5,294,32"/>
+<area shape="rect" id="node3" href="$class_time.html#a776335efdef4b465085442f046699b38" title="Public function to get the value of minutes." alt="" coords="175,56,300,83"/>
+</map>

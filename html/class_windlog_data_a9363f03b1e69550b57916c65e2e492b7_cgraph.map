@@ -1,0 +1,6 @@
+<map id="WindlogData::GetByMonth" name="WindlogData::GetByMonth">
+<area shape="rect" id="node1" title="Returns vector of Windlog data of a month and year. used in userFirstOption, userSecondOption,..." alt="" coords="5,56,183,83"/>
+<area shape="rect" id="node2" href="$classcallback.html#a37f61421c81b801799bfa99d2913542d" title="Clears the vector." alt="" coords="241,5,347,32"/>
+<area shape="rect" id="node3" href="$classcallback.html#a2f6d273979e6b282e8a015a14706cfe2" title="Adds data to vector." alt="" coords="231,56,357,83"/>
+<area shape="rect" id="node4" href="$classcallback.html#a4792c42a3323619651ff2e8f2240f53b" title="returns size of vector." alt="" coords="243,107,345,133"/>
+</map>

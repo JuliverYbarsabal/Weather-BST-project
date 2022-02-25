@@ -1,0 +1,315 @@
+\hypertarget{class_b_s_t}{}\doxysection{B\+ST$<$ T $>$ Class Template Reference}
+\label{class_b_s_t}\index{BST$<$ T $>$@{BST$<$ T $>$}}
+
+
+Manages all essential functions about \mbox{\hyperlink{class_b_s_t}{B\+ST}} template.  
+
+
+
+
+{\ttfamily \#include $<$bst.\+h$>$}
+
+
+
+Collaboration diagram for B\+ST$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{class_b_s_t__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_b_s_t_1_1node}{node}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_b_s_t_adcc81f772005f6902635e02156a7ef22}{B\+ST}} ()
+\begin{DoxyCompactList}\small\item\em A constructor. Construct an empty \mbox{\hyperlink{class_b_s_t}{B\+ST}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_b_s_t_ad5da97c10dec472cffd7f8606a58ecae}{B\+ST}} (const \mbox{\hyperlink{class_b_s_t}{B\+ST}} \&other)
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_b_s_t}{B\+ST}} \& \mbox{\hyperlink{class_b_s_t_a3abfa5506f28c0b58c2991214eb1f23a}{operator=}} (const \mbox{\hyperlink{class_b_s_t}{B\+ST}} \&other)
+\begin{DoxyCompactList}\small\item\em Assignemnt operator. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_b_s_t_ad3708ce5f813d8f8d8bd24bb9f133ffe}{$\sim$\+B\+ST}} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_b_s_t_ae7f864a68a632ee15f952666f2446be1}{Insert}} (const T data)
+\begin{DoxyCompactList}\small\item\em Adds item into tree. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_b_s_t_aa379aa466071aefbe2e4cb21a0e5209e}{Remove}} (const T data)
+\begin{DoxyCompactList}\small\item\em Searches tree for specific item and removes it. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_b_s_t_ad7b4d8e3372dad45dc751bc16de6c8fd}{Search}} (const T data)
+\begin{DoxyCompactList}\small\item\em Searches tree for specific item and returns whether it was found or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_a14b192d725b5b8392e746355a934a1d3}{In\+Order}} (void($\ast$visit)(T \&)) const
+\begin{DoxyCompactList}\small\item\em Traverse through the contents of tree in order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_af606f7d4699a7fea415d7d3380c45bf4}{Pre\+Order}} (void($\ast$visit)(T \&)) const
+\begin{DoxyCompactList}\small\item\em Traverse through the contents of tree in pre order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_ab465841a7875cb56d50a6c0e3cd83812}{Post\+Order}} (void($\ast$visit)(T \&)) const
+\begin{DoxyCompactList}\small\item\em Traverse through the contents of tree in post order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_b_s_t_af28a6d932ef75791e14467629cf25456}{copy\+Tree}} (\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&this\+Root, \mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$other)
+\begin{DoxyCompactList}\small\item\em used in copy contructor and assignment operator to copy \mbox{\hyperlink{class_b_s_t}{B\+ST}} tree heap \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_a0985a8738794830c675e1d1a69e1a553}{clear}} (\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&p)
+\begin{DoxyCompactList}\small\item\em public function to do clear the node. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_b_s_t_a38240fbee17e6693f07217f3b518e505}{Remove}} (\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&remove\+Node)
+\begin{DoxyCompactList}\small\item\em Searches for node to be removed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$ \mbox{\hyperlink{class_b_s_t_a5bf6c5df2fc0c16301a9f822dd250411}{root}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class B\+S\+T$<$ T $>$}
+
+Manages all essential functions about \mbox{\hyperlink{class_b_s_t}{B\+ST}} template. 
+
+Allow to insert and search, inorder\+Traversal, preorder\+Traversal andpostorder\+Traversal.~\newline
+ \begin{DoxyAuthor}{Author}
+Juliver 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+01 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+12/05/2021
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]My program has no bugs. Well, maybe it has... \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_b_s_t_adcc81f772005f6902635e02156a7ef22}\label{class_b_s_t_adcc81f772005f6902635e02156a7ef22}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!BST@{BST}}
+\index{BST@{BST}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{BST()}{BST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::\mbox{\hyperlink{class_b_s_t}{B\+ST}}}
+
+
+
+A constructor. Construct an empty \mbox{\hyperlink{class_b_s_t}{B\+ST}}. 
+
+\mbox{\Hypertarget{class_b_s_t_ad5da97c10dec472cffd7f8606a58ecae}\label{class_b_s_t_ad5da97c10dec472cffd7f8606a58ecae}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!BST@{BST}}
+\index{BST@{BST}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{BST()}{BST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::\mbox{\hyperlink{class_b_s_t}{B\+ST}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})}
+
+
+
+copy constructor 
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_ad3708ce5f813d8f8d8bd24bb9f133ffe}\label{class_b_s_t_ad3708ce5f813d8f8d8bd24bb9f133ffe}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!````~BST@{$\sim$BST}}
+\index{````~BST@{$\sim$BST}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$BST()}{~BST()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{class_b_s_t}{B\+ST}}}
+
+
+
+destructor 
+
+clear the tree.
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_b_s_t_a0985a8738794830c675e1d1a69e1a553}\label{class_b_s_t_a0985a8738794830c675e1d1a69e1a553}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!clear@{clear}}
+\index{clear@{clear}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::clear (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+public function to do clear the node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&p-\/} & node$\ast$\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_af28a6d932ef75791e14467629cf25456}\label{class_b_s_t_af28a6d932ef75791e14467629cf25456}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!copyTree@{copyTree}}
+\index{copyTree@{copyTree}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{copyTree()}{copyTree()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::copy\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&}]{this\+Root,  }\item[{\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+used in copy contructor and assignment operator to copy \mbox{\hyperlink{class_b_s_t}{B\+ST}} tree heap 
+
+\mbox{\Hypertarget{class_b_s_t_a14b192d725b5b8392e746355a934a1d3}\label{class_b_s_t_a14b192d725b5b8392e746355a934a1d3}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!InOrder@{InOrder}}
+\index{InOrder@{InOrder}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{InOrder()}{InOrder()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::In\+Order (\begin{DoxyParamCaption}\item[{void($\ast$)(T \&)}]{visit }\end{DoxyParamCaption}) const}
+
+
+
+Traverse through the contents of tree in order. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_ae7f864a68a632ee15f952666f2446be1}\label{class_b_s_t_ae7f864a68a632ee15f952666f2446be1}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!Insert@{Insert}}
+\index{Insert@{Insert}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Insert (\begin{DoxyParamCaption}\item[{const T}]{data }\end{DoxyParamCaption})}
+
+
+
+Adds item into tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_b_s_t_ae7f864a68a632ee15f952666f2446be1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_b_s_t_a3abfa5506f28c0b58c2991214eb1f23a}\label{class_b_s_t_a3abfa5506f28c0b58c2991214eb1f23a}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$ \& \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Assignemnt operator. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_b_s_t}{B\+ST}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_ab465841a7875cb56d50a6c0e3cd83812}\label{class_b_s_t_ab465841a7875cb56d50a6c0e3cd83812}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!PostOrder@{PostOrder}}
+\index{PostOrder@{PostOrder}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{PostOrder()}{PostOrder()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Post\+Order (\begin{DoxyParamCaption}\item[{void($\ast$)(T \&)}]{visit }\end{DoxyParamCaption}) const}
+
+
+
+Traverse through the contents of tree in post order. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_af606f7d4699a7fea415d7d3380c45bf4}\label{class_b_s_t_af606f7d4699a7fea415d7d3380c45bf4}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!PreOrder@{PreOrder}}
+\index{PreOrder@{PreOrder}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{PreOrder()}{PreOrder()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Pre\+Order (\begin{DoxyParamCaption}\item[{void($\ast$)(T \&)}]{visit }\end{DoxyParamCaption}) const}
+
+
+
+Traverse through the contents of tree in pre order. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_aa379aa466071aefbe2e4cb21a0e5209e}\label{class_b_s_t_aa379aa466071aefbe2e4cb21a0e5209e}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Remove (\begin{DoxyParamCaption}\item[{const T}]{data }\end{DoxyParamCaption})}
+
+
+
+Searches tree for specific item and removes it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_a38240fbee17e6693f07217f3b518e505}\label{class_b_s_t_a38240fbee17e6693f07217f3b518e505}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!Remove@{Remove}}
+\index{Remove@{Remove}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_b_s_t_1_1node}{node}} $\ast$\&}]{remove\+Node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Searches for node to be removed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & data, node $\ast$remove\+Node, node $\ast$parent\+Node \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_s_t_ad7b4d8e3372dad45dc751bc16de6c8fd}\label{class_b_s_t_ad7b4d8e3372dad45dc751bc16de6c8fd}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!Search@{Search}}
+\index{Search@{Search}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::Search (\begin{DoxyParamCaption}\item[{const T}]{data }\end{DoxyParamCaption})}
+
+
+
+Searches tree for specific item and returns whether it was found or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_b_s_t_a5bf6c5df2fc0c16301a9f822dd250411}\label{class_b_s_t_a5bf6c5df2fc0c16301a9f822dd250411}} 
+\index{BST$<$ T $>$@{BST$<$ T $>$}!root@{root}}
+\index{root@{root}!BST$<$ T $>$@{BST$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{root}{root}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_b_s_t_1_1node}{node}}$\ast$ \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ T $>$\+::root\hspace{0.3cm}{\ttfamily [private]}}
+
+Root node of the tree 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{bst_8h}{bst.\+h}}\end{DoxyCompactItemize}

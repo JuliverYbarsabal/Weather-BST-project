@@ -1,0 +1,12 @@
+<map id="userFifthOption" name="userFifthOption">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,116,184"/>
+<area shape="rect" id="node2" href="$class_windlog_data.html#abad0ca970b4ce9ce440ca7b4affd8a6c" title="Returns vector of Windlog data of a day, month and year. used in userfifthOption." alt="" coords="164,56,328,83"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a2dbbd7f294df3f744b9b8f115a1b5d65" title=" " alt="" coords="197,107,295,133"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a39c81f6ae866b814f546c7de4e68f657" title=" " alt="" coords="206,157,286,184"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#a4e48d15455a283fa5461d0605912d278" title=" " alt="" coords="199,208,293,235"/>
+<area shape="rect" id="node10" href="$main_8cpp.html#a667893ea76371906ab1167d72c949f56" title=" " alt="" coords="204,259,288,285"/>
+<area shape="rect" id="node3" href="$classcallback.html#a37f61421c81b801799bfa99d2913542d" title="Clears the vector." alt="" coords="386,5,493,32"/>
+<area shape="rect" id="node4" href="$classcallback.html#a2f6d273979e6b282e8a015a14706cfe2" title="Adds data to vector." alt="" coords="376,56,503,83"/>
+<area shape="rect" id="node5" href="$classcallback.html#a4792c42a3323619651ff2e8f2240f53b" title="returns size of vector." alt="" coords="388,107,491,133"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#abe29efee94983eee8a4dea4d945405c2" title=" " alt="" coords="393,208,486,235"/>
+</map>

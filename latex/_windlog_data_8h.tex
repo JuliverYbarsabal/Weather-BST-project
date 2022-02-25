@@ -1,0 +1,84 @@
+\hypertarget{_windlog_data_8h}{}\doxysection{Windlog\+Data.\+h File Reference}
+\label{_windlog_data_8h}\index{WindlogData.h@{WindlogData.h}}
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include \char`\"{}B\+S\+T.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}callback.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Date.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Time.\+h\char`\"{}}\newline
+Include dependency graph for Windlog\+Data.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_windlog_data_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{_windlog_data_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}}
+\item 
+class \mbox{\hyperlink{class_windlog_data}{Windlog\+Data}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{class_windlog_data}{Windlog\+Data}} class represents an accumulation of \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} data organised by date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$ \mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}} $>$ \mbox{\hyperlink{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}{Windlog\+B\+ST}}
+\item 
+typedef map$<$ int, \mbox{\hyperlink{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}{Windlog\+B\+ST}} $>$ \mbox{\hyperlink{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}{Day\+Map}}
+\item 
+typedef map$<$ int, \mbox{\hyperlink{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}{Day\+Map}} $>$ \mbox{\hyperlink{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}{Month\+Map}}
+\item 
+typedef map$<$ int, \mbox{\hyperlink{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}{Month\+Map}} $>$ \mbox{\hyperlink{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}{Year\+Map}}
+\item 
+typedef Day\+Map\+::iterator \mbox{\hyperlink{_windlog_data_8h_aae4061a3531e28f65dc7c9372d656086}{Day\+Map\+Itr}}
+\item 
+typedef Month\+Map\+::iterator \mbox{\hyperlink{_windlog_data_8h_a3c4b45a43608b41f3bb4011ec396c7e5}{Month\+Map\+Itr}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}\label{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}} 
+\index{WindlogData.h@{WindlogData.h}!DayMap@{DayMap}}
+\index{DayMap@{DayMap}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{DayMap}{DayMap}}
+{\footnotesize\ttfamily typedef map$<$int,\mbox{\hyperlink{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}{Windlog\+B\+ST}}$>$ \mbox{\hyperlink{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}{Day\+Map}}}
+
+\mbox{\Hypertarget{_windlog_data_8h_aae4061a3531e28f65dc7c9372d656086}\label{_windlog_data_8h_aae4061a3531e28f65dc7c9372d656086}} 
+\index{WindlogData.h@{WindlogData.h}!DayMapItr@{DayMapItr}}
+\index{DayMapItr@{DayMapItr}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{DayMapItr}{DayMapItr}}
+{\footnotesize\ttfamily typedef Day\+Map\+::iterator \mbox{\hyperlink{_windlog_data_8h_aae4061a3531e28f65dc7c9372d656086}{Day\+Map\+Itr}}}
+
+\mbox{\Hypertarget{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}\label{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}} 
+\index{WindlogData.h@{WindlogData.h}!MonthMap@{MonthMap}}
+\index{MonthMap@{MonthMap}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{MonthMap}{MonthMap}}
+{\footnotesize\ttfamily typedef map$<$int,\mbox{\hyperlink{_windlog_data_8h_ad1f3a391fc0f21179cc4c48ba6067b6f}{Day\+Map}}$>$ \mbox{\hyperlink{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}{Month\+Map}}}
+
+\mbox{\Hypertarget{_windlog_data_8h_a3c4b45a43608b41f3bb4011ec396c7e5}\label{_windlog_data_8h_a3c4b45a43608b41f3bb4011ec396c7e5}} 
+\index{WindlogData.h@{WindlogData.h}!MonthMapItr@{MonthMapItr}}
+\index{MonthMapItr@{MonthMapItr}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{MonthMapItr}{MonthMapItr}}
+{\footnotesize\ttfamily typedef Month\+Map\+::iterator \mbox{\hyperlink{_windlog_data_8h_a3c4b45a43608b41f3bb4011ec396c7e5}{Month\+Map\+Itr}}}
+
+\mbox{\Hypertarget{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}\label{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}} 
+\index{WindlogData.h@{WindlogData.h}!WindlogBST@{WindlogBST}}
+\index{WindlogBST@{WindlogBST}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{WindlogBST}{WindlogBST}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_b_s_t}{B\+ST}}$<$\mbox{\hyperlink{struct_windlog_type}{Windlog\+Type}}$>$ \mbox{\hyperlink{_windlog_data_8h_a38cf138a2265d24ad737b80ede72ad9b}{Windlog\+B\+ST}}}
+
+\mbox{\Hypertarget{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}\label{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}} 
+\index{WindlogData.h@{WindlogData.h}!YearMap@{YearMap}}
+\index{YearMap@{YearMap}!WindlogData.h@{WindlogData.h}}
+\doxysubsubsection{\texorpdfstring{YearMap}{YearMap}}
+{\footnotesize\ttfamily typedef map$<$int,\mbox{\hyperlink{_windlog_data_8h_aa41e849a5e88e31603a63bfe13f7f8da}{Month\+Map}}$>$ \mbox{\hyperlink{_windlog_data_8h_aedda582acb5b939a0851926300bba2e4}{Year\+Map}}}
+

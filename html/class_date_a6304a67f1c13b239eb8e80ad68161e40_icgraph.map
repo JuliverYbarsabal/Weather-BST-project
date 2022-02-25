@@ -1,0 +1,8 @@
+<map id="Date::GetDay" name="Date::GetDay">
+<area shape="rect" id="node1" title="Public function to get the value of day." alt="" coords="323,107,424,133"/>
+<area shape="rect" id="node2" href="$class_windlog_data.html#a4057ed581e436bfe4221087e79bda074" title="Add a row of Windlogdata. Inserts an instance of WindlogType sorted by date." alt="" coords="139,5,275,32"/>
+<area shape="rect" id="node3" href="$readweather_8h.html#a88772fa45e696362fb685e46942e4450" title=" " alt="" coords="5,31,91,57"/>
+<area shape="rect" id="node4" href="$class_date.html#ab45910c75ae7ac2ae79b138730007882" title="Determine if a date is before another date." alt="" coords="151,107,263,133"/>
+<area shape="rect" id="node5" href="$class_date.html#ab5b9f0682e6285af51521159e7b65fdc" title="Determine if two dates are equal." alt="" coords="147,157,267,184"/>
+<area shape="rect" id="node6" href="$class_date.html#ab6ee13b33bb48680f1b0afa819ec178a" title="Determine if a date is after another date." alt="" coords="151,208,263,235"/>
+</map>
